@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>About</title>
-	<?php include"nav.php";?>
+	
 </head>
 <style>
 	body{
@@ -13,7 +11,7 @@
  padding: 0px;
  box-sizing: border-box;
 font-family: 'Times New Roman', serif;
- background-image:url('homee.jpg');  
+ background-image:url('home2.jpg');  
   background-repeat: ;
  background-size: cover;
 }
@@ -21,8 +19,6 @@ font-family: 'Times New Roman', serif;
   border-style: 1px solid;
   width: 85%;height: auto;
   margin: auto;
-
-
 
 }
 .h
@@ -39,32 +35,34 @@ padding-top: 10px;
   color: white;
   font-size: 25px;
   margin: auto;
-  text-align: left;
+  text-align: center;
+
 }
 .he{
   padding-left: 8px;
   margin: auto; 
   text-transform: uppercase;
-  color: antiquewhite;
+  color: white;
    text-align: center; 
   text-decoration: underline;
-padding-top: 10px; 
+
+font-size: 25px;
 
 }
-.overview
-{
-
+.imgcontainer {
+  text-align: center;
+  margin:auto;
 }
 </style>
 <body>
-  <h1 class="h">ABOUT</h1>
-<div class="contain-word">
-	<div class="overview">
-		<p class="he">Cairo GRND Restaurant is one of the biggest restaurants in Cairo. It has been operating in Cairo
-since 1910. </p>
-	</div>
-  <br/><br/>
-  <p class="he" style="font-size:27px;">     
+  <?php include"nav.php";?>
+    <div class="imgcontainer">
+  <img src="lastlogo4.png" alt="img" >
+  </div>
+		<h2 class="he">Cairo GRND Restaurant is one of the biggest restaurants in Cairo. <br>It has been operating in Cairo
+since 1910. </h2><br>
+ <div>
+  <p class="he" style="font-size:22px;">     
   -Exclusive reservation for the Marquise boat is available for groups and weddings.</p>
                                     <h3 class="he"><strong>Opening Hours</strong></h3><br>
   <p class="words">
@@ -72,8 +70,7 @@ since 1910. </p>
   - Launch cruise: everyday from 08:00 pm to 10:00 pm <br>                            
   - Dinner cruise: everyday from 03:00 pm to 05:00 pm<br>
   For reservations, please call: 0223651234</p>
-
-
 </div>
+
 </body>
 </html>
