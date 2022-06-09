@@ -45,9 +45,18 @@ padding-top: 10px;
   color: white;
    text-align: center; 
   text-decoration: underline;
-
 font-size: 25px;
 
+}
+.contain
+{
+  width: 60%;
+  border: 20px;
+  border-radius:15px ;
+  background-color: rgba(0,0,0,0.8);
+  margin: auto;
+  text-align: center;
+  padding: 15px;  
 }
 .imgcontainer {
   text-align: center;
@@ -58,16 +67,15 @@ font-size: 25px;
   <?php include"nav.php";?>
     <div class="imgcontainer">
   <img src="lastlogo4.png" alt="img" >
-  </div>
+  </div><div class="contain">
 		<h2 class="he">Cairo GRND Restaurant is one of the biggest restaurants in Cairo. <br>It has been operating in Cairo
 since 1910. </h2><br>
- <div>
+ 
   <p class="he" style="font-size:22px;">     
   -Exclusive reservation for the Marquise boat is available for groups and weddings.</p>
                                     <h3 class="he"><strong>Opening Hours</strong></h3><br>
   <p class="words">
-  - Breakfast cruise: everyday from 08:00 pm to 10:00 pm  <br>
-  - Launch cruise: everyday from 08:00 pm to 10:00 pm <br>                            
+  - Breakfast cruise: everyday from 08:00 pm to 10:00 pm <br>                            
   - Dinner cruise: everyday from 03:00 pm to 05:00 pm<br>
   For reservations, please call: 0223651234</p>
 </div>
