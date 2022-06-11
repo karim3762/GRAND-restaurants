@@ -1,0 +1,299 @@
+<style>
+body{
+	font-family: 'Times New Roman', serif;
+  	height :100%;
+  	color: antiquewhite;
+  	width:100%;
+  	margin: auto;
+  	background-color: #333;
+	background-repeat:;
+  	background-size: ;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0px 0;
+}
+.item
+{
+padding-left: 8px;margin: auto; text-transform: uppercase;color: antiquewhite; text-align: center; text-decoration: underline;
+padding-top: 10px; font-size: 35px;
+cursor: pointer;
+}
+.text{
+/*float: left;text-transform:uppercase;color: antiquewhite; text-align: left;background-color: antiquewhite;padding: 10px	;
+color: black;*/
+padding-left: 8px;margin: auto; text-transform: uppercase;color: antiquewhite; text-align: center; text-decoration: underline;
+padding-top: 10px; background-color: antiquewhite;padding: 10px	;color: black; width: 50%;
+
+}
+#myTable {
+ font-family: 'Times New Roman', serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #ddd;
+  font-size: 18px;
+background-color:black;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;  
+padding-right:50px ;
+
+}
+th
+{
+  text-transform: uppercase;
+  background-color: antiquewhite;
+  color: black;
+padding-right:50px ;
+
+}
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+
+}
+
+#myTable tr.header {
+  background-color: #333;
+}
+#myTable tr:hover
+{
+  color: antiquewhite;
+  background-color: transparent;
+  cursor: pointer;
+}
+tr ,td{
+  padding: 5px;
+  opacity: 1;
+}
+	#myTable1 {
+ font-family: 'Times New Roman', serif;
+  border-collapse: collapse;
+  width: auto%;
+  margin: auto;
+  border: 1px solid #ddd;
+  font-size: 18px;
+background-color:black;
+width: 70%;
+}
+
+#myTable1 th, #myTable1 td {
+  text-align: left;
+  padding: 12px;  
+padding-right:50px ;
+
+
+}
+th
+{
+  text-transform: uppercase;
+  background-color: antiquewhite;
+  color: black;
+padding-right:50px ;
+
+}
+#myTable1 tr {
+  border-bottom: 1px solid #ddd;
+
+}
+
+#myTable1 tr.header {
+  background-color: #333;
+}
+#myTable1 tr:hover
+{
+  color: antiquewhite;
+  background-color: transparent;
+  cursor: pointer;
+}
+tr ,td{
+  padding: 5px;
+  opacity: 1;
+}	
+.addtocart
+{
+	color: black; 
+ 	width: auto;
+  	padding: 10px 18px;
+  	cursor: pointer;
+  	background-color: antiquewhite;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	border-top-left-radius:25px;  
+  	border-top-right-radius:25px;  
+  	border-bottom-right-radius:25px;  
+  	border-bottom-left-radius:25px;
+}
+.addtocart:hover
+{
+ 	background-color: salmon;
+  	opacity: 0.8;
+  letter-spacing: 2px;
+  transition: 0.5s;
+ font-size: 18Px;
+}
+
+.search {
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  width: 80%;	
+  border: none;
+  background-image: url('searchicon.png');
+  border-radius:6px ;
+} 
+.in
+{
+
+width: 20%;
+height: 35px;
+outline: none;
+border: none;
+background-color: antiquewhite;
+margin: 4px 0 auto;
+border-radius: 4px;
+padding: 4px;
+color: black;
+padding: 12px 20px;
+margin: auto;
+border: 1px solid darkgreen;
+box-sizing: border-box;
+display: flex;
+padding-right: 40px;
+background-image: url('');
+}
+
+.dropmenu
+{
+    border-radius: 6px;
+    width: 100%;
+       
+}
+.dropmenu #Mselect
+{
+    background-color: antiquewhite;
+    width: 100%;
+    margin: auto;
+    color:black ;
+        border-radius: 6px;
+        font-size: 20px;
+        text-align: center;
+
+}
+.checkbox{
+	background-color: antiquewhite;
+    width: 100%;
+    margin: auto;
+    color:black ;
+        border-radius: 6px;
+        font-size: 20px;
+        text-align: center;
+}
+.sandbtn
+{
+color: black; 
+  width: 65%;
+  margin: auto;
+padding: 10px 18px;
+  cursor: pointer;
+  background-color: antiquewhite    ;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+border-radius: 25px;
+}
+.sandbtn:hover
+  {
+    background-color: salmon;
+    opacity: 0.8;
+  letter-spacing: 2px;
+  transition: 0.5s;
+ font-size: 22  Px;
+  }
+  .btn {
+  	color: black; 
+  width: auto;
+  padding: 10px 18px;
+  cursor: pointer;
+  background-color: antiquewhite	;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-top-left-radius:25px;  
+  border-top-right-radius:25px;  
+  border-bottom-right-radius:25px;  
+  border-bottom-left-radius:25px;
+  }
+  .btn:hover{
+  	background-color:salmon;
+    opacity: 0.8;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  }
+  .sandwichcashier{
+  color: black; 
+  width: 70%;
+  cursor: pointer;
+  background-color: antiquewhite	;
+  text-align: center;
+  text-decoration: none;	
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 30px;
+  border-top-left-radius:25px;  
+  border-top-right-radius:25px;  
+  border-bottom-right-radius:25px;  
+  border-bottom-left-radius:25px;
+  }
+
+  .sandwichcashier:hover{
+  	background-color:salmon;
+    opacity: 0.8;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  }
+  .headerr{
+  	font-size: 35px;
+  	border: 2px solid;
+  	text-align: center;
+  	padding: 10px;
+  	width: 70%;
+  	margin: auto;
+  	background-color: antiquewhite;
+  	color: black;
+  	text-transform: uppercase;
+  }
+  .caption{
+  	color: black;
+  	font-size: 15px;
+  }
+  .main{
+  	border:3px solid salmon; 
+  	background-color:rgba(0, 0, 0, 0.5); 
+  	border-radius:5px; 
+  	padding:10px; 
+  	text-align: center;
+  	width: 70%;
+  	margin: auto;
+  		color: antiquewhite;
+  }
+  .img-responsive
+  {
+  	border:3px solid black;
+  }
+  .img{
+  	width:  200px;
+    height: 150px;
+    background-size: cover;
+  }
+</style>
