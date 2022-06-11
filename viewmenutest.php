@@ -10,7 +10,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 <html>
 <body>
 <head>
-  <title>Items</title>
+  <title>Menu</title>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -23,16 +23,14 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <?php include"menucashiertest.css";
-  include"navtest.php";
-  ?>
+  <?php include"mainmenu.css";
+  include"navtest.php";?>
   
 <br>
 <h1 class="item"> MENU</h1>
 <br><br>
-<div class="search-container">
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Items.." title="Type in a name" > 
-</div><form method="POST" action="">
+ 
+</div>
 <table id="myTable" name="menu">
   <tr class="header">
 
@@ -66,33 +64,9 @@ while($row = $result->fetch_assoc())
 ?>
 </table>
 </form>
-
-
  <br>
 </div>
-<script>
-let name=document.getElementById('name');
-let indgredients=document.getElementById('indgredients');
-let price=document.getElementById('price');
-function myFunction() {
- var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[1,2];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }       
-  }
-}
-</script>
+<button href="signin1.php" class="btn"> Sign In</button>
 </body>
 </div>
 </body>
