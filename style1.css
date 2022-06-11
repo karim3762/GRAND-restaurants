@@ -1,0 +1,199 @@
+<style>
+fieldset {
+  display: block;
+  margin-left: 90px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 15px;
+  border: 2px groove;
+  border-radius:25px;
+  background-color:rgba(0,0,0,0.8	);
+}
+
+	body
+	{
+	font-family: Arial, Helvetica, sans-serif;
+  	background-image:url('homee.jpg')  ; 
+   	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover; 
+  	height :auto;
+  	background-color: #222;
+  	color: gray;
+  	width: auto;
+  	margin: auto;
+	text-align: center;
+
+	}
+	.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  width: 50%;
+  padding: auto;
+  margin: auto;
+text-align: center;
+
+}
+
+.topnav a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 27px;
+  display: flex;
+ float: left;
+   cursor: pointer;
+}
+.topnav a:hover {
+  background-color: transparent;
+  color: red;
+ letter-spacing: 1px;
+  transition: 0.5s;
+  font-size: 30Px;
+  opacity: 0.8;
+    cursor: pointer;
+}
+.topnav a.active{
+  background-color: transparent;
+  color: black;
+  font-size: 27px;
+  font-style: bold;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0px ;
+}
+
+/* Avatar image */
+img.avatar {
+padding-bottom: 20px;
+	margin: -10px 40px;
+  width: 80%;
+  border: groove;
+  border-color:red ;
+
+}
+
+/* Add padding to containers */
+.container {
+  padding: 50px;
+}
+
+.sologon
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	border: none;
+	padding-bottom: 20px;
+
+}
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: auto;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+}
+
+input[type=text], input[type=password],input[type=email] {
+  width: 100%;
+  padding: 7px 7px;
+  margin: 0px 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin: 0px 2px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: -80px;
+
+}
+.btn{
+background-color: dodgerblue;
+position: top;
+ padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
+}
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-device-width: 40em) {
+
+  .form-all {
+
+    margin-top: 40px !important;
+
+  }
+
+  .form-all:before {
+
+    top: -40px !important;
+
+  }
+   span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+
+}
+}
+
+table, th, td {
+  border: 1px solid;
+color: white;
+
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+}
+table th{
+	text-transform: uppercase;
+	  color: white;
+}
+
+</style>
